@@ -43,15 +43,75 @@ header h5 {
 .search-wrapper{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .search-wrapper label input{
-    width: 600px;
+    width: 800px;
     height: 50px;
-    border: 1px solid #999;
+    border: 1px solid #9e9e9e;
     border-radius: 25px;
     outline: none;
     font-size: 20px;
     padding: 0 20px;
+    margin: 20px 0;
 }
+
+.button-wrapper{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.button-wrapper button{
+    background-color: #f2ab3f;
+    color: #000;
+    border: none;
+    border-radius: 18px;
+    padding: 13px 50px;
+    margin: 0 10px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+}
+
+.container-wrapper{
+    background-color: #f1eef0;
+    width: 100vw;
+    padding: 15px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.country-item{
+    border: none;
+    background-color: #fff;
+    width: 254px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+}
+
+.country-item img{
+    width: 135px;
+    height: 70px;
+}
+
+
+
+
+

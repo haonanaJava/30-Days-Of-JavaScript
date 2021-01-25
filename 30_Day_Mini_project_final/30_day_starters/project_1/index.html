@@ -1,16 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>30DaysOfJavaScript:30 </title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
-   
+    <header>
+        <h1>World Country Data</h1>
+        <h5>Currently, we have 250 countries</h5>
+        <p class="search-result-info"><span>5</span> countries satisfied the search criteria</p>
+    </header>
+    <div class="search-wrapper">
+        <label>
+            <input type="text" placeholder="Search country by name,city and language" autocomplete />
+        </label>
+        <div class="button-wrapper">
+            <button>Name</button>
+            <button>Capital</button>
+            <button>Population</button>
+        </div>
+    </div>
+    <div class="container-wrapper">
+        <div class="container">
+            <div class="country-item">
+                <img src="" alt="National Flag">
+                <p class="countryName"></p>
+                <div class="country-detail-info">
+                    <div class="capital">capital:<span></span></div>
+                    <div class="language">language:<span></span></div>
+                    <div class="population">population:<span></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-title">
+            <div class="button-container">
+                <button>population</button>
+                <button>language</button>
+            </div>
+            <p>world population</p>
+        </div>
+        <div class="ranking-list">
+            ranking list
+        </div>
+    </footer>
 
     <script src="./data/countries_data.js"></script>
     <script src="./scripts/main.js"></script>
 
+    <script>
+
+    </script>
 </body>
 
 </html>
